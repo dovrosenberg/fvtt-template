@@ -1,6 +1,7 @@
-# Package name
+# What this is
+The repo is a decent starting framework for creating an FVTT package.  It's a collection of things I've used in other packages, so you'll need to change out names throughout.
 
-## NOTE: Need to replace 'autocomplete-mentions' references throughout when starting
+# Package name
 
 [![Supported Foundry Versions](https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://github.com/dovrosenberg/fvtt-autocomplete-mentions/raw/master/static/module.json)](https://github.com/dovrosenberg/fvtt-autocomplete-mentions)
 
