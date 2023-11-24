@@ -10,21 +10,6 @@ export function registerForInitHook() {
 async function init(): Promise<void> {
   // initialize settings first, so other things can use them
   updateModuleSettings(new ModuleSettings());
-
-  registerListener();
-}
-
-// register the main listener
-function registerListener() {
-  jQuery(document).on('keydown', '.ProseMirror.editor-content[contenteditable="true"]', onKeydown);
-}
-
-function onKeydown(event: KeyboardEvent) {
-  // watch for the @
-  if (event.key === '@') {
-      event.preventDefault();
-      activateAutocompleter(event.target);
-  }
 }
 
 function activateAutocompleter(targetElement) {
