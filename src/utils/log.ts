@@ -1,7 +1,7 @@
 import { getGame } from '@/utils/game';
 import { id as ModuleId } from '@module';
 
-const messagePrefix = 'autocomplete-mentions | ';
+const messagePrefix = `${moduleId} | `;
 
 // log the given text, so long as our current log level is at least the one given
 export function log(force: boolean, ...args): void {
